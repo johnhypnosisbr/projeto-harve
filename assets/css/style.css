@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 90%;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flex-r{
+    display: flex;
+    flex-direction:row;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+.space-around{
+    justify-content: space-around;
+}
+.just-center{
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding: 10px;
+}
+a{
+    color: rgb(117, 171, 35);    
+    text-decoration: none;
+}
+hr{
+    width: 90%;
+    text-align: center;
+    border-color: rgb(229, 229, 229)
+}
+
+nav{
+    padding-top: 15px;
+}
+.search-input{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 15px;
+    height: 25px;
+}
+.gray-background{    
+    background-color: rgb(246, 246, 246);
+}
+.logo-icon{
+    object-fit: contain;
+    max-width: 50%;
+    position: left;
+}
+.search-icon{
+    object-fit: cover;
+    max-height: 15px;
+}
+.search-box{
+    margin-left: 10px;
+    width: 300px;
+}
+.border-less{
+    border: none;
+}
+.all-categories-select{
+    font-weight: bold;
+    border-right: 1px solid gray;
+}
+drop-down-menus{
+    font-weight: bold;
+    padding: 20px;
+}
+.font-bold{
+    font-weight: bold;
+}
+.flex-c{
+    display: flex;
+    flex-direction: column
+}
+.card{
+    background-image: url("card-verde.png");
+    background-position: center;
+    background-size: cover;
+    padding: 30px 60px 30px 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+}
+.margin-auto{
+    margin: auto;
+}
+.padding-twenty{
+    padding: 20px;
+}
+.more-categories-button{
+    padding: 10px 0 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.read-recepies-button{
+    border: 3px solid green;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.read-recepies-button:hover, .more-categories-button{
+    cursor: pointer;
+}
+.green{
+    color: green;
+    font-weight: bold;
+}
+.menu-div{
+    width: 200px;
+}
+.price-card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.price-card-img{
+    max-width: 150px;
+    border-radius: 10px;
+}
+.buy-now-button{
+    padding: 3px;
+    border-radius: 7px;
+    background-color: #46760A;
+    color: white;
+}
+
+.margin-auto{
+    margin: auto;
+}
+.img-cart{
+    border-radius: 10px;
+    width: 70%;
+}
+.pad-bot{
+    padding-bottom: 0.7rem;
+}
+
+
+
+@media screen and (max-width: 800px){
+    h2{
+        font-size: 3vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+    .hidden{
+        display: none;
+    }
+    .hidden-column{
+        flex-direction: column;
+    }
+    .search-input{
+        max-width: 90%;
+    }
+    .nav{
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
